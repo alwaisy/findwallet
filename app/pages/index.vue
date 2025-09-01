@@ -47,4 +47,14 @@ useHead({
     },
   ],
 });
+
+// Track page view with Umami
+onMounted(() => {
+  umTrackView();
+  umIdentify({
+    page: 'homepage',
+    section: 'wallet_directory',
+    user_type: 'visitor'
+  });
+});
 </script>

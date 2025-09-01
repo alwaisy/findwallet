@@ -11,6 +11,16 @@
       <NuxtLink
         :to="`/w/${wallet.platform.slug}`"
         class="flex items-start justify-between"
+        v-umami="{
+          name: 'wallet_card_click',
+          wallet_name: wallet.platform.name,
+          wallet_slug: wallet.platform.slug,
+          wallet_type: wallet.platform.essence,
+          international_support: wallet.platform.international_support,
+          only_international: wallet.platform.onlyInternational,
+          source: 'homepage',
+          location: 'wallet_card'
+        }"
       >
         <div class="flex items-center gap-4">
           <!-- Wallet Logo -->
@@ -84,8 +94,17 @@
       </NuxtLink>
     </CardHeader>
 
-    <NuxtLink :to="`/w/${wallet.platform.slug}`">
-      <CardContent class="space-y-4">
+            <NuxtLink 
+          :to="`/w/${wallet.platform.slug}`"
+          v-umami="{
+            name: 'wallet_content_click',
+            wallet_name: wallet.platform.name,
+            wallet_slug: wallet.platform.slug,
+            source: 'homepage',
+            location: 'wallet_content'
+          }"
+        >
+          <CardContent class="space-y-4">
         <!-- User Base -->
         <div
           :to="`/w/${wallet.platform.slug}`"
@@ -113,7 +132,18 @@
         class="hover:text-accent"
         as-child
       >
-        <NuxtLink :to="wallet.platform.website" target="_blank">
+        <NuxtLink 
+          :to="wallet.platform.website" 
+          target="_blank"
+          v-umami="{
+            name: 'wallet_external_link_click',
+            wallet_name: wallet.platform.name,
+            wallet_slug: wallet.platform.slug,
+            link_type: 'website',
+            destination: wallet.platform.website,
+            source: 'homepage'
+          }"
+        >
           <ExternalLink class="w-4 h-4 mr-2" />
           Website
         </NuxtLink>
@@ -127,7 +157,18 @@
         :title="`Visit ${wallet.platform.name} Trustpilot`"
         as-child
       >
-        <NuxtLink :to="wallet.platform.trustpilot_url!" target="_blank">
+        <NuxtLink 
+          :to="wallet.platform.trustpilot_url!" 
+          target="_blank"
+          v-umami="{
+            name: 'wallet_external_link_click',
+            wallet_name: wallet.platform.name,
+            wallet_slug: wallet.platform.slug,
+            link_type: 'trustpilot',
+            destination: wallet.platform.trustpilot_url,
+            source: 'homepage'
+          }"
+        >
           <Icon name="simple-icons:trustpilot" :size="18" />
         </NuxtLink>
       </Button>
@@ -139,7 +180,18 @@
         :title="`Visit ${wallet.platform.name} Play Store`"
         as-child
       >
-        <NuxtLink :to="wallet.platform.playstore_url!" target="_blank">
+        <NuxtLink 
+          :to="wallet.platform.playstore_url!" 
+          target="_blank"
+          v-umami="{
+            name: 'wallet_external_link_click',
+            wallet_name: wallet.platform.name,
+            wallet_slug: wallet.platform.slug,
+            link_type: 'playstore',
+            destination: wallet.platform.playstore_url,
+            source: 'homepage'
+          }"
+        >
           <Icon name="simple-icons:googleplay" :size="18" />
         </NuxtLink>
       </Button>
@@ -151,7 +203,18 @@
         :title="`Visit ${wallet.platform.name} App Store`"
         as-child
       >
-        <NuxtLink :to="wallet.platform.appstore_url!" target="_blank">
+        <NuxtLink 
+          :to="wallet.platform.appstore_url!" 
+          target="_blank"
+          v-umami="{
+            name: 'wallet_external_link_click',
+            wallet_name: wallet.platform.name,
+            wallet_slug: wallet.platform.slug,
+            link_type: 'appstore',
+            destination: wallet.platform.appstore_url,
+            source: 'homepage'
+          }"
+        >
           <Icon name="simple-icons:appstore" :size="18" />
         </NuxtLink>
       </Button>

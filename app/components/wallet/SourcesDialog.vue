@@ -1,7 +1,16 @@
 <template>
   <Dialog>
     <DialogTrigger as-child>
-      <Button variant="outline" size="sm" class="gap-2">
+      <Button 
+        variant="outline" 
+        size="sm" 
+        class="gap-2"
+        v-umami="{
+          name: 'sources_dialog_open',
+          sources_count: sources.length,
+          location: 'wallet_detail'
+        }"
+      >
         <ExternalLink class="w-4 h-4" />
         View Sources
       </Button>
@@ -39,6 +48,12 @@
               size="sm"
               class="ml-2"
               @click="openSource(source)"
+              v-umami="{
+                name: 'source_link_click',
+                source_title: getSourceTitle(source),
+                source_url: source,
+                location: 'sources_dialog'
+              }"
             >
               <ExternalLink class="w-4 h-4" />
             </Button>

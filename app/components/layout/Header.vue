@@ -17,6 +17,13 @@
             :to="link.path"
             class="text-muted-foreground hover:text-foreground px-3 py-2 rounded-md text-sm font-medium transition-colors"
             active-class="text-foreground bg-accent"
+            v-umami="{
+              name: 'navbar_navigation',
+              link: link.label,
+              destination: link.path,
+              location: 'navbar',
+              device: 'desktop'
+            }"
           >
             {{ link.label }}
           </NuxtLink>

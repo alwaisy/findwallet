@@ -16,7 +16,18 @@
             class="w-full justify-start"
             as-child
           >
-            <NuxtLink :to="wallet.platform.website" target="_blank">
+            <NuxtLink 
+              :to="wallet.platform.website" 
+              target="_blank"
+              v-umami="{
+                name: 'wallet_quick_action_click',
+                wallet_name: wallet.platform.name,
+                wallet_slug: wallet.platform.slug,
+                action_type: 'website',
+                destination: wallet.platform.website,
+                location: 'quick_actions'
+              }"
+            >
               <ExternalLink class="w-4 h-4 mr-2" />
               Visit Website
             </NuxtLink>
@@ -30,7 +41,18 @@
               class="flex flex-col items-center gap-1 h-auto py-3"
               as-child
             >
-              <NuxtLink :to="wallet.platform.playstore_url" target="_blank">
+              <NuxtLink 
+                :to="wallet.platform.playstore_url" 
+                target="_blank"
+                v-umami="{
+                  name: 'wallet_quick_action_click',
+                  wallet_name: wallet.platform.name,
+                  wallet_slug: wallet.platform.slug,
+                  action_type: 'playstore',
+                  destination: wallet.platform.playstore_url,
+                  location: 'quick_actions'
+                }"
+              >
                 <Icon name="simple-icons:googleplay" class="w-4 h-4" />
                 <span class="text-xs">Play Store</span>
               </NuxtLink>
@@ -43,7 +65,18 @@
               class="flex flex-col items-center gap-1 h-auto py-3"
               as-child
             >
-              <NuxtLink :to="wallet.platform.appstore_url" target="_blank">
+              <NuxtLink 
+                :to="wallet.platform.appstore_url" 
+                target="_blank"
+                v-umami="{
+                  name: 'wallet_quick_action_click',
+                  wallet_name: wallet.platform.name,
+                  wallet_slug: wallet.platform.slug,
+                  action_type: 'appstore',
+                  destination: wallet.platform.appstore_url,
+                  location: 'quick_actions'
+                }"
+              >
                 <Icon name="simple-icons:appstore" class="w-4 h-4" />
                 <span class="text-xs">App Store</span>
               </NuxtLink>
@@ -58,7 +91,18 @@
             class="w-full justify-start"
             as-child
           >
-            <NuxtLink :to="wallet.platform.trustpilot_url" target="_blank">
+            <NuxtLink 
+              :to="wallet.platform.trustpilot_url" 
+              target="_blank"
+              v-umami="{
+                name: 'wallet_quick_action_click',
+                wallet_name: wallet.platform.name,
+                wallet_slug: wallet.platform.slug,
+                action_type: 'trustpilot',
+                destination: wallet.platform.trustpilot_url,
+                location: 'quick_actions'
+              }"
+            >
               <Icon name="simple-icons:trustpilot" class="w-4 h-4 mr-2" />
               Read Reviews
             </NuxtLink>

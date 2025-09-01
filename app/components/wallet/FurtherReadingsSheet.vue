@@ -1,7 +1,15 @@
 <template>
   <Sheet>
     <SheetTrigger as-child>
-      <Button variant="outline" size="sm">
+      <Button 
+        variant="outline" 
+        size="sm"
+        v-umami="{
+          name: 'further_readings_open',
+          readings_count: furtherReadings.length,
+          location: 'wallet_detail'
+        }"
+      >
         <BookOpen class="w-4 h-4 mr-2" />
         Further Reading
       </Button>
@@ -28,7 +36,16 @@
               <span class="text-sm">{{ reading.name }}</span>
             </div>
             <Button variant="outline" size="sm" as-child>
-              <NuxtLink :to="reading.link" target="_blank">
+              <NuxtLink 
+                :to="reading.link" 
+                target="_blank"
+                v-umami="{
+                  name: 'further_reading_link_click',
+                  reading_name: reading.name,
+                  reading_link: reading.link,
+                  location: 'further_readings_sheet'
+                }"
+              >
                 <ExternalLink class="w-4 h-4 mr-2" />
                 Visit
               </NuxtLink>

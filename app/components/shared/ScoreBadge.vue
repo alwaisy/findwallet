@@ -7,6 +7,14 @@
           getScoreColorClass(scoreData.data.totalScore),
         ]"
         variant="secondary"
+        v-umami="{
+          name: 'score_badge_hover',
+          wallet_name: walletName,
+          wallet_slug: slug,
+          score: scoreData.data.totalScore,
+          total_reviews: scoreData.data.totalReviews,
+          location: 'score_badge'
+        }"
       >
         <div class="flex items-center gap-1">
           <Star class="w-3 h-3 fill-current" />

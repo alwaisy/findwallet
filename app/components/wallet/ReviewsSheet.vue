@@ -1,7 +1,16 @@
 <template>
   <Sheet>
     <SheetTrigger as-child>
-      <Button variant="outline" size="sm" class="w-full justify-start">
+      <Button 
+        variant="outline" 
+        size="sm" 
+        class="w-full justify-start"
+        v-umami="{
+          name: 'reviews_sheet_open',
+          reviews_count: reviews.length,
+          location: 'wallet_detail'
+        }"
+      >
         <Icon name="simple-icons:trustpilot" class="w-4 h-4 mr-2" />
         Read Reviews
       </Button>
@@ -28,7 +37,16 @@
               <span class="text-sm">{{ review.name }}</span>
             </div>
             <Button variant="outline" size="sm" as-child>
-              <NuxtLink :to="review.link" target="_blank">
+              <NuxtLink 
+                :to="review.link" 
+                target="_blank"
+                v-umami="{
+                  name: 'review_link_click',
+                  review_name: review.name,
+                  review_link: review.link,
+                  location: 'reviews_sheet'
+                }"
+              >
                 <ExternalLink class="w-4 h-4 mr-2" />
                 Visit
               </NuxtLink>

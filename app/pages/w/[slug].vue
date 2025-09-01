@@ -89,7 +89,15 @@
       <div class="container mx-auto">
         <!-- Header -->
         <Button variant="ghost" size="sm" as-child>
-          <NuxtLink to="/">
+          <NuxtLink 
+            to="/"
+            v-umami="{
+              name: 'wallet_back_to_home',
+              wallet_name: wallet.platform.name,
+              wallet_slug: wallet.platform.slug,
+              source: 'wallet_detail_page'
+            }"
+          >
             <ArrowLeft class="w-4 h-4 mr-2" />
             Back to Wallets
           </NuxtLink>
@@ -166,6 +174,21 @@ if (!wallet.value && !pending.value) {
   console.log("Wallet not found", error.value);
   throw createError({ statusCode: 404, statusMessage: "Wallet not found" });
 }
+
+// Track page view with Umami when wallet is loaded
+onMounted(() => {
+  if (wallet.value) {
+    umTrackView();
+    umIdentify({
+      page: 'wallet_detail',
+      wallet_name: wallet.value.platform.name,
+      wallet_slug: wallet.value.platform.slug,
+      wallet_type: wallet.value.platform.essence,
+      international_support: wallet.value.platform.international_support,
+      user_type: 'visitor'
+    });
+  }
+});
 
 // Set page meta
 useHead(() => ({

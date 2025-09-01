@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "@nuxt/image",
     "shadcn-nuxt",
+    "nuxt-umami",
   ],
 
   // Enable view transitions
@@ -33,6 +34,12 @@ export default defineNuxtConfig({
      * @default "./components/ui"
      */
     componentDir: "./app/components/ui",
+  },
+
+  umami: {
+    enabled: process.env.NODE_ENV === "production",
+    autoTrack: true,
+    useDirective: true,
   },
 
   runtimeConfig: {
