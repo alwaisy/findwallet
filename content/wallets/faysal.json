@@ -1,0 +1,104 @@
+{
+  "platform": {
+    "name": "Faysal Bank",
+    "founded": 1994,
+    "headquarters": "Karachi, Pakistan",
+    "website": "https://faysalbank.com",
+    "playstore_url": "https://play.google.com/store/apps/details?id=com.avanza.ambitwizfbl&hl=en",
+    "appstore_url": "https://apps.apple.com/us/app/faysal-digibank/id1459836486",
+    "trustpilot_url": null,
+    "user_base": "Over 1M app downloads",
+    "primary_use": "Full-service retail and Islamic banking platform with digital payments and international transfers.",
+    "essence": "banking",
+    "international_support": true,
+    "onlyInternational": false,
+    "logo": "/wallets/faysal.png",
+    "slug": "faysal"
+  },
+  "content": {
+    "about": "Faysal Bank is a Pakistani bank offering retail, corporate, and Shariah-compliant financial services including digital banking.",
+    "features": [
+      "Shariah-compliant Islamic banking services",
+      "Digital wallet and mobile payments",
+      "Utility and bill payments online",
+      "Domestic fund transfers within Pakistan",
+      "International remittance and foreign exchange",
+      "QR code payment capability",
+      "Multi-currency accounts for customers"
+    ],
+    "international": {
+      "receive_money": {
+        "methods": [
+          "SWIFT network",
+          "Western Union API integration",
+          "RIA partnership"
+        ],
+        "infrastructure": "hybrid",
+        "partners": [
+          "SWIFT",
+          "Western Union",
+          "RIA Money Transfer"
+        ],
+        "technical_details": [
+          "SWIFT for direct foreign transfers",
+          "Western Union API for remittances",
+          "RIA partnership for inbound remittances"
+        ]
+      },
+      "send_money": {
+        "methods": [
+          "SWIFT network",
+          "Correspondent banking relationships"
+        ],
+        "infrastructure": "hybrid",
+        "partners": [
+          "SWIFT",
+          "Global correspondent banks"
+        ],
+        "technical_details": [
+          "SWIFT code for cross-border transfers",
+          "Uses correspondent banks for settlements"
+        ]
+      },
+      "supported_currencies": [
+        "PKR",
+        "USD",
+        "EUR",
+        "GBP",
+        "AED",
+        "SAR"
+      ],
+      "transfer_methods": [
+        "SWIFT wire transfer",
+        "Western Union",
+        "RIA remittance"
+      ],
+      "limits": "Subject to SBP regulations and partner rules"
+    },
+    "important_notes": [
+      "SWIFT code required for transfers",
+      "Shariah-compliant financial services",
+      "Mobile app sometimes lags",
+      "Exchange rates vary by transaction",
+      "KYC mandatory for international transfers"
+    ]
+  },
+  "seo": {
+    "seoMetaTitle": "Faysal Bank Pakistan - Digital & Islamic Banking",
+    "seoMetaDescription": "Faysal Bank offers Shariah-compliant banking, digital wallet services, QR payments, and international transfers via SWIFT and partners."
+  },
+  "reviews": [
+    {
+      "name": "Trustpilot Unclaimed Page",
+      "link": "https://www.trustpilot.com/review/www.faysalbank.com"
+    }
+  ],
+  "sources": [
+    "https://faysalbank.com",
+    "https://faysalbank.com/en/islamic-banking/",
+    "https://faysalbank.com/en/remittance/",
+    "https://play.google.com/store/apps/details?id=com.faysalbank.fblmobileapp",
+    "https://apps.apple.com/pk/app/faysal-digilink-digital-banking/id1320889845",
+    "https://www.khaleejtimes.com/business/banking-faysal-bank-revolutionises-islamic-banking-in-pakistan"
+  ]
+}

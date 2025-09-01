@@ -1,0 +1,107 @@
+{
+  "platform": {
+    "name": "Payoneer",
+    "founded": 2005,
+    "headquarters": "New York, USA",
+    "website": "https://www.payoneer.com",
+    "playstore_url": "https://play.google.com/store/apps/details?id=com.payoneer.android&hl=en&gl=US",
+    "appstore_url": "https://apps.apple.com/us/app/payoneer-business-payments/id663338402",
+    "trustpilot_url": "https://www.trustpilot.com/review/www.payoneer.com",
+    "user_base": "5M+ users",
+    "primary_use": "Cross-border payments for freelancers and businesses",
+    "essence": "service",
+    "international_support": true,
+    "onlyInternational": true,
+    "logo": "/wallets/payoneer.jpeg",
+    "slug": "payoneer"
+  },
+  "content": {
+    "about": "Payoneer enables freelancers and businesses in Pakistan to receive international payments and withdraw in PKR.",
+    "features": [
+      "Global receiving accounts in multiple currencies",
+      "Withdraw funds to local bank accounts",
+      "Marketplace payouts from Upwork and Fiverr",
+      "Pay suppliers and contractors via network",
+      "Prepaid Mastercard usage (limited availability PK)",
+      "Currency conversion with applied FX fees",
+      "KYC compliance and account verification required"
+    ],
+    "international": {
+      "receive_money": {
+        "methods": [
+          "Global Payment Service (virtual accounts)",
+          "Marketplace integrations (Upwork, Fiverr, Amazon)",
+          "Network payments via partner ecosystems"
+        ],
+        "infrastructure": "hybrid",
+        "partners": [
+          "Upwork",
+          "Fiverr",
+          "Amazon",
+          "Airbnb",
+          "SWIFT correspondent banks"
+        ],
+        "technical_details": [
+          "Virtual receiving accounts in USD, EUR, GBP",
+          "Funds pooled with partner banking institutions",
+          "Marketplace payouts via API integrations",
+          "No personal named IBAN accounts",
+          "Funds consolidated then withdrawn locally"
+        ]
+      },
+      "send_money": {
+        "methods": [
+          "Pay to other Payoneer accounts",
+          "Payments to global suppliers",
+          "Local bank transfers from balance"
+        ],
+        "infrastructure": "hybrid",
+        "partners": [
+          "Correspondent banks",
+          "Third-party payment processors"
+        ],
+        "technical_details": [
+          "No outward SWIFT from user account",
+          "Limited to Payoneer-to-Payoneer payments",
+          "Business-only supplier payments allowed",
+          "No domestic IBFT in Pakistan"
+        ]
+      },
+      "supported_currencies": [
+        "USD",
+        "EUR",
+        "GBP",
+        "AUD",
+        "CAD",
+        "JPY",
+        "CNY"
+      ],
+      "transfer_methods": [
+        "Local bank transfer in PKR",
+        "Payoneer prepaid card (limited PK)",
+        "Send to Payoneer accounts"
+      ],
+      "limits": "Subject to KYC, corridor restrictions"
+    },
+    "important_notes": [
+      "KYC mandatory for higher limits",
+      "No domestic transfers in Pakistan",
+      "Prepaid card availability restricted",
+      "Foreign exchange fees apply",
+      "Withdrawal time varies by bank"
+    ]
+  },
+  "seo": {
+    "seoMetaTitle": "Payoneer Pakistan - International Money Transfers",
+    "seoMetaDescription": "Receive global payments in Pakistan via Payoneer. Withdraw to local bank accounts in PKR from Upwork, Fiverr, Amazon and more."
+  },
+  "sources": [
+    "https://www.payoneer.com",
+    "https://www.payoneer.com/partners/marketplaces/",
+    "https://www.payoneer.com/resources/receiving-accounts/",
+    "https://play.google.com/store/apps/details?id=com.payoneer.android&hl=en&gl=US",
+    "https://apps.apple.com/us/app/payoneer/id927466748",
+    "https://www.trustpilot.com/review/www.payoneer.com",
+    "https://www.businesswire.com/news/home/20220303005236/en/Payoneer-Reports-Fourth-Quarter-and-Full-Year-2021-Results"
+  ]
+}

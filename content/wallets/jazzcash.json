@@ -1,0 +1,54 @@
+{
+  "platform": {
+    "name": "JazzCash",
+    "founded": 2012,
+    "headquarters": "Karachi, Pakistan",
+    "website": "https://www.jazzcash.com.pk",
+    "playstore_url": "https://play.google.com/store/apps/details?id=com.techlogix.mobilinkcustomer",
+    "appstore_url": "https://apps.apple.com/us/app/jazzcash-your-mobile-account/id1224617688",
+    "trustpilot_url": null,
+    "user_base": "48M+ registered, 19.7M monthly active",
+    "primary_use": "Mobile wallet for payments, transfers, bills. Supports QR, debit cards, loans.",
+    "essence": "wallet",
+    "international_support": false,
+    "onlyInternational": false,
+    "logo": "/wallets/jazzcash.jpeg",
+    "slug": "jazzcash"
+  },
+  "content": {
+    "about": "JazzCash is Pakistan’s largest fintech app offering mobile wallet, payments, transfers, loans, and bill payments. It supports QR payments, debit cards, and tap-to-pay via Google Wallet integration.",
+    "features": [
+      "Money transfer",
+      "QR payments",
+      "Bill payments",
+      "Digital loans",
+      "Tap-to-pay",
+      "Debit card integration",
+      "NextGen teen wallet"
+    ],
+    "important_notes": [
+      "Over 13M users use Google Wallet",
+      "9M daily transactions approx",
+      "122K active agents nationwide",
+      "350K merchants accept JazzCash",
+      "65% users prefer app over USSD"
+    ],
+    "reviews": [
+      {
+        "name": "Trustpilot Unclaimed Page",
+        "link": "https://www.trustpilot.com/review/jazzcash.com.pk"
+      }
+    ]
+  },
+  "seo": {
+    "seoMetaTitle": "JazzCash Pakistan - Leading Mobile Wallet & Payment App",
+    "seoMetaDescription": "JazzCash is Pakistan’s top digital wallet with 48M+ users, offering payments, transfers, loans, and Google Wallet tap-to-pay integration."
+  },
+  "sources": [
+    "https://www.jazzcash.com.pk",
+    "https://play.google.com/store/apps/details?id=com.techlogix.mobilinkcustomer",
+    "https://mettisglobal.news/jazzcash-boosts-digital-payments-in-pakistan-with-google-wallet/",
+    "https://digitalpakistan.pk/jazzcash-enhances-payments-with-google-wallet/",
+    "https://inform.tmforum.org/features-and-opinion/jazz-banks-on-mobile-money-in-digital-services-transformation"
+  ]
+}

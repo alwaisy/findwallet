@@ -1,0 +1,107 @@
+{
+  "platform": {
+    "name": "Meezan Bank",
+    "founded": 1997,
+    "headquarters": "Karachi, Pakistan",
+    "website": "https://www.meezanbank.com/",
+    "playstore_url": "https://play.google.com/store/apps/details?id=com.ofss.tx.meezan",
+    "appstore_url": "https://apps.apple.com/us/app/meezan-mobile-app/id1609237715",
+    "trustpilot_url": null,
+    "user_base": "Over 15M customers",
+    "primary_use": "Digital Islamic banking services and remittances",
+    "essence": "banking",
+    "international_support": true,
+    "onlyInternational": false,
+    "logo": "/wallets/meezan.jpeg",
+    "slug": "meezan"
+  },
+  "content": {
+    "about": "Pakistan’s first and largest Islamic bank offering Shariah-compliant digital financial services.",
+    "features": [
+      "Fund transfers across Pakistan",
+      "Utility and bill payments",
+      "Investment and savings accounts",
+      "Debit card management features",
+      "International remittance receiving support",
+      "QR payments at merchants",
+      "Mobile top-ups and vouchers"
+    ],
+    "international": {
+      "receive_money": {
+        "methods": [
+          "SWIFT transfers",
+          "Money Transfer Operators",
+          "Correspondent banking"
+        ],
+        "infrastructure": "hybrid",
+        "partners": [
+          "Western Union",
+          "MoneyGram",
+          "RIA",
+          "SWIFT network"
+        ],
+        "technical_details": [
+          "SWIFT network for direct bank transfers",
+          "Correspondent banking for global settlements",
+          "Integration with remittance companies’ APIs",
+          "Funds credited directly to bank accounts"
+        ]
+      },
+      "send_money": {
+        "methods": [
+          "SWIFT transfers (limited)",
+          "Correspondent banking"
+        ],
+        "infrastructure": "third-party",
+        "partners": [
+          "SWIFT member banks",
+          "Correspondent banks"
+        ],
+        "technical_details": [
+          "Primarily inward remittance focused",
+          "Outgoing remittance requires branch initiation",
+          "No app-based outward transfers yet"
+        ]
+      },
+      "supported_currencies": [
+        "USD",
+        "GBP",
+        "EUR",
+        "SAR",
+        "AED",
+        "PKR"
+      ],
+      "transfer_methods": [
+        "Bank deposit",
+        "Cash pickup (partners)",
+        "Mobile credit"
+      ],
+      "limits": "Depends on SBP regulations and partner limits"
+    },
+    "important_notes": [
+      "Shariah-compliant banking only",
+      "Outward remittance needs branches",
+      "Digital app mainly for local use",
+      "Foreign remittance directly credits account",
+      "Limited Trustpilot presence"
+    ]
+  },
+  "reviews": [
+    {
+      "name": "Trustpilot Unclaimed Page",
+      "link": "https://www.trustpilot.com/review/www.meezanbank.com"
+    }
+  ],
+  "seo": {
+    "seoMetaTitle": "Meezan Bank Pakistan - Digital Islamic Banking",
+    "seoMetaDescription": "Meezan Bank offers Shariah-compliant digital banking, local payments, and international remittance services for customers across Pakistan."
+  },
+  "sources": [
+    "https://www.meezanbank.com/",
+    "https://play.google.com/store/apps/details?id=com.meezanbank.mbmobile",
+    "https://apps.apple.com/pk/app/meezan-mobile-banking/id717012629",
+    "https://www.meezanbank.com/personal-banking/remittances/",
+    "https://propakistani.pk/2023/12/11/meezan-bank-becomes-largest-bank-in-pakistan-in-terms-of-deposits/",
+    "https://www.dawn.com/news/1722536"
+  ]
+}

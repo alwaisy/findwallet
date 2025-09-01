@@ -1,0 +1,97 @@
+{
+  "platform": {
+    "name": "Wise",
+    "founded": 2011,
+    "headquarters": "London, United Kingdom",
+    "website": "https://wise.com",
+    "playstore_url": "https://play.google.com/store/apps/details?id=com.transferwise.android&hl=en",
+    "appstore_url": "https://apps.apple.com/us/app/wise-international-transfers/id612261027",
+    "trustpilot_url": "https://www.trustpilot.com/review/wise.com",
+    "user_base": "16M+ users",
+    "primary_use": "International money transfers with real exchange rates",
+    "essence": "service",
+    "international_support": true,
+    "onlyInternational": true,
+    "logo": "/wallets/wise.png",
+    "slug": "wise"
+  },
+  "content": {
+    "about": "Wise is a global money transfer service providing low-cost cross-border payments with real exchange rates.",
+    "features": [
+      "Real-time mid-market exchange rates",
+      "Transparent upfront transfer fees",
+      "Business and personal accounts",
+      "Send to 70+ countries",
+      "Receive money internationally",
+      "Multi-currency account availability",
+      "Debit card not in Pakistan"
+    ],
+    "international": {
+      "receive_money": {
+        "methods": [
+          "SWIFT",
+          "local bank integrations"
+        ],
+        "infrastructure": "hybrid",
+        "partners": [
+          "Local correspondent banks",
+          "SWIFT network"
+        ],
+        "technical_details": [
+          "Funds land in PKR bank accounts",
+          "No multi-currency account in Pakistan",
+          "Requires sender to use Wise account",
+          "Uses SWIFT for PK bank delivery"
+        ]
+      },
+      "send_money": {
+        "methods": [
+          "Local bank transfer",
+          "Debit/credit card funding"
+        ],
+        "infrastructure": "third-party",
+        "partners": [
+          "Pakistani banks via SWIFT"
+        ],
+        "technical_details": [
+          "Direct PKR outbound transfers unavailable",
+          "Residents cannot send abroad via Wise",
+          "Wise not licensed as PK payment provider",
+          "Outbound payments blocked from PK accounts"
+        ]
+      },
+      "supported_currencies": [
+        "USD",
+        "GBP",
+        "EUR",
+        "PKR",
+        "70+ others"
+      ],
+      "transfer_methods": [
+        "Bank transfer",
+        "Debit card",
+        "Credit card",
+        "Swift correspondence"
+      ],
+      "limits": "Transfer limits depend on sending country"
+    },
+    "important_notes": [
+      "No Wise debit card in Pakistan",
+      "Can only receive funds in PKR",
+      "Outbound PK to abroad not supported",
+      "No domestic PK-PK payments"
+    ]
+  },
+  "seo": {
+    "seoMetaTitle": "Wise Pakistan - International Money Transfers",
+    "seoMetaDescription": "Learn how Wise supports Pakistan for receiving international transfers with real rates. Sending from Pakistan abroad is not available."
+  },
+  "sources": [
+    "https://wise.com/help/articles/2571918/can-i-get-the-wise-card-in-pakistan",
+    "https://wise.com/help/articles/2932278/can-i-send-money-from-pakistan",
+    "https://wise.com/gb/send-money/send-money-to-pakistan",
+    "https://play.google.com/store/apps/details?id=com.transferwise.android",
+    "https://apps.apple.com/app/wise-transfer-money-overseas/id612261027",
+    "https://www.trustpilot.com/review/wise.com"
+  ]
+}

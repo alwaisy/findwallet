@@ -1,0 +1,90 @@
+{
+  "platform": {
+    "name": "NayaPay",
+    "founded": 2017,
+    "headquarters": "Karachi, Pakistan",
+    "website": "https://www.nayapay.com/",
+    "playstore_url": "https://play.google.com/store/apps/details?id=com.nayapay.app&hl=en",
+    "appstore_url": "https://apps.apple.com/us/app/nayapay/id1621286305",
+    "trustpilot_url": "https://www.trustpilot.com/review/nayapay.com",
+    "user_base": "Over 500K users",
+    "primary_use": "SBP-licensed EMI wallet for payments, transfers, and card use.",
+    "essence": "wallet",
+    "international_support": true,
+    "onlyInternational": false,
+    "logo": "/wallets/nayapay.png",
+    "slug": "nayapay"
+  },
+  "content": {
+    "about": "Licensed EMI wallet offering digital payments and Visa cards in Pakistan.",
+    "features": [
+      "Raast instant P2P transfers",
+      "IBFT to bank accounts",
+      "Utility and bill payments",
+      "QR code merchant payments",
+      "Virtual and physical Visa card",
+      "Request and send money",
+      "KYC tiered account limits"
+    ],
+    "international": {
+      "receive_money": {
+        "methods": [
+          "Visa network card acceptance"
+        ],
+        "infrastructure": "third-party",
+        "partners": [
+          "Visa"
+        ],
+        "technical_details": [
+          "No SWIFT or IBAN support",
+          "Funds settle via Visa rails",
+          "PKR wallet credit post settlement",
+          "Foreign currency auto-converted to PKR"
+        ]
+      },
+      "send_money": {
+        "methods": [
+          "Visa card transactions abroad"
+        ],
+        "infrastructure": "third-party",
+        "partners": [
+          "Visa"
+        ],
+        "technical_details": [
+          "No outward remittance via SWIFT",
+          "No direct foreign transfers supported",
+          "USD spent via Visa card abroad",
+          "PKR converted via Visa FX rates"
+        ]
+      },
+      "supported_currencies": [
+        "PKR only (FX via card network)"
+      ],
+      "transfer_methods": [
+        "Raast",
+        "IBFT",
+        "Visa card transactions"
+      ],
+      "limits": "Subject to SBP EMI KYC tiers"
+    },
+    "important_notes": [
+      "No SWIFT outward transfer support",
+      "Wallet balance only in PKR",
+      "International use limited to Visa",
+      "Card FX conversion charges apply",
+      "Outward foreign remittances unavailable"
+    ]
+  },
+  "seo": {
+    "seoMetaTitle": "NayaPay Pakistan Wallet & Visa Card",
+    "seoMetaDescription": "NayaPay is a licensed digital wallet in Pakistan for Raast transfers, bill payments, and Visa card use, with limited international support."
+  },
+  "sources": [
+    "https://www.nayapay.com/",
+    "https://play.google.com/store/apps/details?id=com.nayapay.wallet",
+    "https://apps.apple.com/pk/app/nayapay/id1573186924",
+    "https://www.trustpilot.com/review/nayapay.com",
+    "https://www.dawn.com/news/1670475",
+    "https://www.sbp.org.pk/psd/emi/NayaPay.html"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "platform": {
+    "name": "ElevatePay",
+    "founded": 2022,
+    "headquarters": "Karachi, Pakistan",
+    "website": "https://www.elevatepay.co/",
+    "playstore_url": "https://play.google.com/store/apps/details?id=co.elevatepay.app&hl=en",
+    "appstore_url": "https://apps.apple.com/us/app/elevate-pay-usd-banking/id6446812091",
+    "trustpilot_url": "https://www.trustpilot.com/review/elevatepay.co",
+    "user_base": "Over 100K users",
+    "primary_use": "USD wallet for freelancers and founders to receive and withdraw earnings internationally.",
+    "essence": "wallet",
+    "international_support": true,
+    "onlyInternational": true,
+    "logo": "/wallets/elevatepay.webp",
+    "slug": "elevatepay"
+  },
+  "content": {
+    "about": "Digital wallet for Pakistani freelancers to receive, hold, and withdraw USD earnings.",
+    "features": [
+      "Receive USD from global platforms",
+      "Instant withdrawals to Pakistani banks",
+      "Flat withdrawal fees, no hidden charges",
+      "Hold and manage USD wallet balance",
+      "Competitive currency exchange rates",
+      "Seamless integration with freelancer platforms",
+      "Free USD deposits to wallet"
+    ],
+    "international": {
+      "receive_money": {
+        "methods": [
+          "ACH transfers",
+          "Bank transfers",
+          "API integrations"
+        ],
+        "infrastructure": "hybrid",
+        "partners": [
+          "US banking partners",
+          "Payment processors"
+        ],
+        "technical_details": [
+          "ACH support via US banking",
+          "Linked with Upwork, Fiverr payouts",
+          "Deposits routed through licensed institutions",
+          "Funds stored in safeguarded bank accounts"
+        ]
+      },
+      "send_money": {
+        "methods": [
+          "Local bank transfers",
+          "Interbank rails",
+          "Partner APIs"
+        ],
+        "infrastructure": "third-party",
+        "partners": [
+          "Local Pakistani banks",
+          "Remittance networks"
+        ],
+        "technical_details": [
+          "PKR withdrawals via bank APIs",
+          "Flat fee on each local transfer",
+          "No SWIFT support for global payouts",
+          "Primarily outbound transfers to Pakistan"
+        ]
+      },
+      "supported_currencies": [
+        "USD",
+        "PKR"
+      ],
+      "transfer_methods": [
+        "ACH",
+        "Bank Transfer",
+        "API integrations"
+      ],
+      "limits": "Varies by partner platform policies"
+    },
+    "important_notes": [
+      "Not a licensed Pakistani bank",
+      "USD deposits free of charge",
+      "PKR withdrawals incur flat fee",
+      "App availability subject to region",
+      "Supports freelancers and business founders"
+    ]
+  },
+  "seo": {
+    "seoMetaTitle": "ElevatePay Pakistan - USD Wallet for Freelancers",
+    "seoMetaDescription": "ElevatePay helps Pakistani freelancers receive USD earnings from global platforms, manage wallets, and withdraw to local banks at flat fees."
+  },
+  "sources": [
+    "https://www.elevatepay.co/",
+    "https://play.google.com/store/apps/details?id=com.elevatepay.app",
+    "https://apps.apple.com/app/elevatepay/id6454428739",
+    "https://www.trustpilot.com/review/elevatepay.co",
+    "https://www.techjuice.pk/pakistani-fintech-elevate-secures-5-million-to-support-freelancers/"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "platform": {
+    "name": "SadaPay",
+    "founded": 2019,
+    "headquarters": "Islamabad, Pakistan",
+    "website": "https://sadapay.pk",
+    "playstore_url": "https://play.google.com/store/apps/details?id=com.sadapay.app",
+    "appstore_url": "https://apps.apple.com/us/app/sadapay-money-made-simple/id1543848524",
+    "trustpilot_url": "https://www.trustpilot.com/review/sadapay.pk",
+    "user_base": "1M+ users",
+    "primary_use": "Digital wallet with payments and card use",
+    "essence": "wallet",
+    "international_support": true,
+    "onlyInternational": false,
+    "logo": "/wallets/sadapay.jpeg",
+    "slug": "sadapay"
+  },
+  "content": {
+    "about": "SadaPay is a Pakistani EMI wallet providing card, transfers, and digital payments under SBP license.",
+    "features": [
+      "Instant IBFT bank transfers",
+      "Free Mastercard debit card",
+      "Bill and utility payments",
+      "Mobile top-ups with cashback",
+      "In-app QR code payments",
+      "Spending analytics and insights",
+      "Free intra-wallet transfers"
+    ],
+    "international": {
+      "receive_money": {
+        "methods": [
+          "SWIFT not supported",
+          "Third-party remittance APIs"
+        ],
+        "infrastructure": "third-party",
+        "partners": [
+          "Remittance partners enabled via HomeSend/Bank APIs"
+        ],
+        "technical_details": [
+          "No SWIFT or IBAN support",
+          "Relies on licensed partner banks",
+          "Remittances routed via partner API",
+          "Settlement in PKR only"
+        ]
+      },
+      "send_money": {
+        "methods": [
+          "Card payments abroad",
+          "Online card transactions"
+        ],
+        "infrastructure": "third-party",
+        "partners": [
+          "Mastercard Network"
+        ],
+        "technical_details": [
+          "Outward remittance not enabled",
+          "Cross-border payments via Mastercard rails",
+          "No international bank transfers",
+          "PKR converted by Mastercard FX rates"
+        ]
+      },
+      "supported_currencies": [
+        "PKR (spending in FX auto-converted)"
+      ],
+      "transfer_methods": [
+        "Domestic IBFT",
+        "Wallet to wallet",
+        "Card payments (online/offline)"
+      ],
+      "limits": "EMI KYC tiers with monthly caps"
+    },
+    "important_notes": [
+      "No IBAN accounts supported",
+      "Card works globally via Mastercard",
+      "Remittances only through partners",
+      "Outward remittances not available",
+      "PKR wallet only, no FX balance",
+      "SBP regulated EMI license"
+    ]
+  },
+  "seo": {
+    "seoMetaTitle": "SadaPay Pakistan - EMI Wallet & Debit Card",
+    "seoMetaDescription": "SadaPay offers a free debit card, wallet, and domestic transfers in Pakistan with limited international use via Mastercard."
+  },
+  "sources": [
+    "https://sadapay.pk",
+    "https://play.google.com/store/apps/details?id=com.sadapay.app",
+    "https://apps.apple.com/pk/app/sadapay/id1497176463",
+    "https://www.trustpilot.com/review/sadapay.pk",
+    "https://propakistani.pk/2022/07/08/sadapay-granted-approval-to-launch-commercial-operations-in-pakistan/",
+    "https://tribune.com.pk/story/2372490/sadapay-gets-final-nod-to-launch-commercial-operations"
+  ]
+}

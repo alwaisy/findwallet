@@ -1,0 +1,102 @@
+{
+  "platform": {
+    "name": "UBL Digital",
+    "founded": 2017,
+    "headquarters": "Karachi, Pakistan",
+    "website": "https://www.ubldirect.com/",
+    "playstore_url": "https://play.google.com/store/apps/details?id=app.com.brd&pcampaignid=web_share",
+    "appstore_url": "https://apps.apple.com/us/app/ubl-digital-safe-banking/id1203678041",
+    "trustpilot_url": null,
+    "user_base": "5M+ users",
+    "primary_use": "Digital banking and mobile payments for UBL customers",
+    "essence": "banking",
+    "international_support": true,
+    "onlyInternational": false,
+    "logo": "/wallets/ubl.webp",
+    "slug": "ubl"
+  },
+  "content": {
+    "about": "UBL Digital is United Bank Limited's mobile banking app offering comprehensive digital banking services. Provides account management, payments, and financial services for UBL customers.",
+    "features": [
+      "Account balance and statement viewing",
+      "Fund transfers between accounts",
+      "Bill payments and mobile top-ups",
+      "QR code payments",
+      "International money transfers",
+      "Investment and savings products",
+      "Card management and controls"
+    ],
+    "international": {
+      "receive_money": {
+        "methods": [
+          "SWIFT network",
+          "Correspondent banking"
+        ],
+        "infrastructure": "in-house",
+        "partners": [
+          "SWIFT network",
+          "International correspondent banks"
+        ],
+        "technical_details": [
+          "• Direct SWIFT transfers to UBL accounts",
+          "• Correspondent banking relationships for receiving",
+          "• Real-time notifications for incoming transfers"
+        ]
+      },
+      "send_money": {
+        "methods": [
+          "SWIFT network",
+          "Western Union partnership"
+        ],
+        "infrastructure": "hybrid",
+        "partners": [
+          "Western Union",
+          "SWIFT network"
+        ],
+        "technical_details": [
+          "• SWIFT transfers for bank-to-bank",
+          "• Western Union integration for cash pickup",
+          "• Online remittance through UBL partners"
+        ]
+      },
+      "supported_currencies": [
+        "USD",
+        "EUR",
+        "GBP",
+        "AED",
+        "SAR"
+      ],
+      "transfer_methods": [
+        "Bank transfer",
+        "Cash pickup",
+        "Mobile wallet"
+      ],
+      "limits": "Up to $10,000 per transaction"
+    },
+    "important_notes": [
+      "Requires UBL bank account for access",
+      "Limited to existing UBL customers only",
+      "Strong security with biometric authentication"
+    ]
+  },
+  "seo": {
+    "seoMetaTitle": "UBL Digital App Review - Mobile Banking & Transfers",
+    "seoMetaDescription": "UBL Digital mobile banking app for account management, payments, and international transfers. Features, limits, and user guide for UBL customers."
+  },
+  "reviews": [
+    {
+      "name": "Trustpilot Unclaimed Page 1",
+      "link": "https://www.trustpilot.com/review/ubldigital.com"
+    },
+    {
+      "name": "Trustpilot Unclaimed Page 2",
+      "link": "https://www.trustpilot.com/review/ubl.com.pk"
+    }
+  ],
+  "sources": [
+    "https://www.ubldirect.com/",
+    "https://play.google.com/store/apps/details?id=com.ubl.digital",
+    "https://www.ubl.com.pk/personal-banking/digital-banking",
+    "https://www.sbp.org.pk/publications/acd/2023/UBL-Annual-Report-2023.pdf"
+  ]
+}

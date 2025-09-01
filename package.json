@@ -1,0 +1,41 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "lint": "eslint . --ignore-pattern 'dev-docs/**'",
+    "lint:fix": "eslint . --fix --ignore-pattern 'dev-docs/**'",
+    "type": "nuxt typecheck",
+    "check": "bun run lint && bun type",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "batch-scores": "bun run scripts/batch-score-calculator.ts"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.14",
+    "@nuxt/content": "3.6.3",
+    "@nuxt/eslint": "1.9.0",
+    "@nuxt/fonts": "0.11.4",
+    "@nuxt/icon": "2.0.0",
+    "@nuxt/image": "1.11.0",
+    "@tailwindcss/vite": "^4.1.12",
+    "@vueuse/core": "^13.8.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "eslint": "^9.0.0",
+    "lucide-vue-next": "^0.542.0",
+    "nuxt": "^4.0.3",
+    "openai": "^5.16.0",
+    "reka-ui": "^2.5.0",
+    "shadcn-nuxt": "2.2.0",
+    "sharp": "^0.34.3",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.12",
+    "tw-animate-css": "^1.3.7",
+    "vue": "^3.5.20",
+    "vue-router": "^4.5.1"
+  }
+}

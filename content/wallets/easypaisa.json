@@ -1,0 +1,53 @@
+{
+  "platform": {
+    "name": "Easypaisa",
+    "founded": 2009,
+    "headquarters": "Karachi, Pakistan",
+    "website": "https://www.easypaisa.com.pk",
+    "playstore_url": "https://play.google.com/store/apps/details?id=pk.com.telenor.phoenix",
+    "appstore_url": "https://apps.apple.com/us/app/easypaisa-a-digital-bank/id1227725092",
+    "trustpilot_url": null,
+    "user_base": "55M+ users",
+    "primary_use": "Mobile payments, digital banking, money transfers",
+    "essence": "banking",
+    "international_support": false,
+    "onlyInternational": false,
+    "logo": "/wallets/easypaisa.jpg",
+    "slug": "easypaisa"
+  },
+  "content": {
+    "about": "Easypaisa is Pakistan's first digital bank with over 55 million users, offering mobile payments, digital banking, and financial services. It has 18.2 million monthly active users and strong customer deposits.",
+    "features": [
+      "Mobile wallet",
+      "Bill payments",
+      "Mobile top-up",
+      "Digital loans",
+      "Money transfers",
+      "QR payments",
+      "Insurance services"
+    ],
+    "important_notes": [
+      "Over 55 million registered users",
+      "18.2 million monthly active users",
+      "Strong digital banking growth",
+      "Customer deposits Rs94.7 billion",
+      "Low deposit costs 1.57%",
+      "Profit Rs3.64bn H1 2025",
+      "Supports international transfers"
+    ],
+    "reviews": [
+      {
+        "name": "Trustpilot Unclaimed Page",
+        "link": "https://www.trustpilot.com/review/easypaisa.com.pk"
+      }
+    ]
+  },
+  "seo": {
+    "seoMetaTitle": "Easypaisa Digital Wallet Pakistan - Mobile Payments & Banking",
+    "seoMetaDescription": "Easypaisa is Pakistan's leading digital bank and wallet with 55M+ users, offering mobile payments, digital loans, and international money transfers."
+  },
+  "sources": [
+    "https://www.easypaisa.com.pk",
+    "https://www.telenor.com.pk/easypaisa"
+  ]
+}
